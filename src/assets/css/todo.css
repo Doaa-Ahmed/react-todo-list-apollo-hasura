@@ -1,0 +1,48 @@
+.todo-title {
+  margin: 1rem 0;
+  color: #ff2968;
+}
+
+.todo-list {
+  padding-left: 0;
+  margin-left: 40%;
+}
+.todo-list .todo-item {
+  position: relative;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  border-top: 1px solid #ccc;
+}
+.todo-list .todo-item .done .form-check-label {
+  color: #999;
+  text-decoration: line-through;
+}
+.todo-list .todo-item.highlight {
+  border-color: #ff2968;
+  background-color: #ff8fb0;
+}
+.todo-list .todo-item.highlight.last-child {
+  border-color: #ff2968;
+}
+
+.todo-list .todo-item.last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list .todo-item.btn-danger {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.todo-list .todo-item .form-check-label {
+  width: 100%;
+}
+.todo-list .todo-item .form-check-label .form-check-input {
+  margin-right: 1rem;
+}
+.head {
+  margin-top: 50px;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}

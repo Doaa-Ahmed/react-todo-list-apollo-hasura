@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "public"."todo_items"("id" serial NOT NULL, "text" text NOT
+      NULL, "is_completed" boolean NOT NULL DEFAULT false, PRIMARY KEY ("id") );
+  type: run_sql
+- args:
+    name: todo_items
+    schema: public
+  type: add_existing_table_or_view
